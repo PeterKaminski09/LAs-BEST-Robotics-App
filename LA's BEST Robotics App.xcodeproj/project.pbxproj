@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0B663BF1F54BDDC0073BF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B663BE1F54BDDC0073BF5F /* AppDelegate.swift */; };
+		C0B663C11F54BDDC0073BF5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B663C01F54BDDC0073BF5F /* ViewController.swift */; };
+		C0B663C41F54BDDC0073BF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B663C21F54BDDC0073BF5F /* Main.storyboard */; };
+		C0B663C61F54BDDC0073BF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B663C51F54BDDC0073BF5F /* Assets.xcassets */; };
+		C0B663C91F54BDDC0073BF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B663C71F54BDDC0073BF5F /* LaunchScreen.storyboard */; };
+		C0B663D41F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B663D31F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppTests.swift */; };
+		C0B663DF1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B663DE1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0B663D01F54BDDC0073BF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B663B31F54BDDC0073BF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0B663BA1F54BDDC0073BF5F;
+			remoteInfo = "LA's BEST Robotics App";
+		};
+		C0B663DB1F54BDDC0073BF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B663B31F54BDDC0073BF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0B663BA1F54BDDC0073BF5F;
+			remoteInfo = "LA's BEST Robotics App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0B663BB1F54BDDC0073BF5F /* LA's BEST Robotics App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LA's BEST Robotics App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B663BE1F54BDDC0073BF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0B663C01F54BDDC0073BF5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0B663C31F54BDDC0073BF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0B663C51F54BDDC0073BF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0B663C81F54BDDC0073BF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0B663CA1F54BDDC0073BF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B663CF1F54BDDC0073BF5F /* LA's BEST Robotics AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA's BEST Robotics AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B663D31F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_s_BEST_Robotics_AppTests.swift; sourceTree = "<group>"; };
+		C0B663D51F54BDDC0073BF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B663DA1F54BDDC0073BF5F /* LA's BEST Robotics AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA's BEST Robotics AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B663DE1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_s_BEST_Robotics_AppUITests.swift; sourceTree = "<group>"; };
+		C0B663E01F54BDDC0073BF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0B663B81F54BDDC0073BF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B663CC1F54BDDC0073BF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B663D71F54BDDC0073BF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0B663B21F54BDDC0073BF5F = {
+			isa = PBXGroup;
+			children = (
+				C0B663BD1F54BDDC0073BF5F /* LA's BEST Robotics App */,
+				C0B663D21F54BDDC0073BF5F /* LA's BEST Robotics AppTests */,
+				C0B663DD1F54BDDC0073BF5F /* LA's BEST Robotics AppUITests */,
+				C0B663BC1F54BDDC0073BF5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0B663BC1F54BDDC0073BF5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B663BB1F54BDDC0073BF5F /* LA's BEST Robotics App.app */,
+				C0B663CF1F54BDDC0073BF5F /* LA's BEST Robotics AppTests.xctest */,
+				C0B663DA1F54BDDC0073BF5F /* LA's BEST Robotics AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B663BD1F54BDDC0073BF5F /* LA's BEST Robotics App */ = {
+			isa = PBXGroup;
+			children = (
+				C0B663BE1F54BDDC0073BF5F /* AppDelegate.swift */,
+				C0B663C01F54BDDC0073BF5F /* ViewController.swift */,
+				C0B663C21F54BDDC0073BF5F /* Main.storyboard */,
+				C0B663C51F54BDDC0073BF5F /* Assets.xcassets */,
+				C0B663C71F54BDDC0073BF5F /* LaunchScreen.storyboard */,
+				C0B663CA1F54BDDC0073BF5F /* Info.plist */,
+			);
+			path = "LA's BEST Robotics App";
+			sourceTree = "<group>";
+		};
+		C0B663D21F54BDDC0073BF5F /* LA's BEST Robotics AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0B663D31F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppTests.swift */,
+				C0B663D51F54BDDC0073BF5F /* Info.plist */,
+			);
+			path = "LA's BEST Robotics AppTests";
+			sourceTree = "<group>";
+		};
+		C0B663DD1F54BDDC0073BF5F /* LA's BEST Robotics AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0B663DE1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift */,
+				C0B663E01F54BDDC0073BF5F /* Info.plist */,
+			);
+			path = "LA's BEST Robotics AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0B663BA1F54BDDC0073BF5F /* LA's BEST Robotics App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B663E31F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics App" */;
+			buildPhases = (
+				C0B663B71F54BDDC0073BF5F /* Sources */,
+				C0B663B81F54BDDC0073BF5F /* Frameworks */,
+				C0B663B91F54BDDC0073BF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LA's BEST Robotics App";
+			productName = "LA's BEST Robotics App";
+			productReference = C0B663BB1F54BDDC0073BF5F /* LA's BEST Robotics App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0B663CE1F54BDDC0073BF5F /* LA's BEST Robotics AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B663E61F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics AppTests" */;
+			buildPhases = (
+				C0B663CB1F54BDDC0073BF5F /* Sources */,
+				C0B663CC1F54BDDC0073BF5F /* Frameworks */,
+				C0B663CD1F54BDDC0073BF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B663D11F54BDDC0073BF5F /* PBXTargetDependency */,
+			);
+			name = "LA's BEST Robotics AppTests";
+			productName = "LA's BEST Robotics AppTests";
+			productReference = C0B663CF1F54BDDC0073BF5F /* LA's BEST Robotics AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0B663D91F54BDDC0073BF5F /* LA's BEST Robotics AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B663E91F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics AppUITests" */;
+			buildPhases = (
+				C0B663D61F54BDDC0073BF5F /* Sources */,
+				C0B663D71F54BDDC0073BF5F /* Frameworks */,
+				C0B663D81F54BDDC0073BF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B663DC1F54BDDC0073BF5F /* PBXTargetDependency */,
+			);
+			name = "LA's BEST Robotics AppUITests";
+			productName = "LA's BEST Robotics AppUITests";
+			productReference = C0B663DA1F54BDDC0073BF5F /* LA's BEST Robotics AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0B663B31F54BDDC0073BF5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "LA's BEST";
+				TargetAttributes = {
+					C0B663BA1F54BDDC0073BF5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W92LYHF844;
+						ProvisioningStyle = Automatic;
+					};
+					C0B663CE1F54BDDC0073BF5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JV2PP95GDC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0B663BA1F54BDDC0073BF5F;
+					};
+					C0B663D91F54BDDC0073BF5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JV2PP95GDC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0B663BA1F54BDDC0073BF5F;
+					};
+				};
+			};
+			buildConfigurationList = C0B663B61F54BDDC0073BF5F /* Build configuration list for PBXProject "LA's BEST Robotics App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0B663B21F54BDDC0073BF5F;
+			productRefGroup = C0B663BC1F54BDDC0073BF5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0B663BA1F54BDDC0073BF5F /* LA's BEST Robotics App */,
+				C0B663CE1F54BDDC0073BF5F /* LA's BEST Robotics AppTests */,
+				C0B663D91F54BDDC0073BF5F /* LA's BEST Robotics AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0B663B91F54BDDC0073BF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B663C91F54BDDC0073BF5F /* LaunchScreen.storyboard in Resources */,
+				C0B663C61F54BDDC0073BF5F /* Assets.xcassets in Resources */,
+				C0B663C41F54BDDC0073BF5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B663CD1F54BDDC0073BF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B663D81F54BDDC0073BF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B663B71F54BDDC0073BF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B663C11F54BDDC0073BF5F /* ViewController.swift in Sources */,
+				C0B663BF1F54BDDC0073BF5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B663CB1F54BDDC0073BF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B663D41F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B663D61F54BDDC0073BF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B663DF1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0B663D11F54BDDC0073BF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0B663BA1F54BDDC0073BF5F /* LA's BEST Robotics App */;
+			targetProxy = C0B663D01F54BDDC0073BF5F /* PBXContainerItemProxy */;
+		};
+		C0B663DC1F54BDDC0073BF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0B663BA1F54BDDC0073BF5F /* LA's BEST Robotics App */;
+			targetProxy = C0B663DB1F54BDDC0073BF5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0B663C21F54BDDC0073BF5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B663C31F54BDDC0073BF5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0B663C71F54BDDC0073BF5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B663C81F54BDDC0073BF5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0B663E11F54BDDC0073BF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C0B663E21F54BDDC0073BF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0B663E41F54BDDC0073BF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W92LYHF844;
+				INFOPLIST_FILE = "LA's BEST Robotics App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lasbest.LA-s-BEST-Robotics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0B663E51F54BDDC0073BF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W92LYHF844;
+				INFOPLIST_FILE = "LA's BEST Robotics App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lasbest.LA-s-BEST-Robotics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C0B663E71F54BDDC0073BF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JV2PP95GDC;
+				INFOPLIST_FILE = "LA's BEST Robotics AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lasbest.LA-s-BEST-Robotics-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA's BEST Robotics App.app/LA's BEST Robotics App";
+			};
+			name = Debug;
+		};
+		C0B663E81F54BDDC0073BF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JV2PP95GDC;
+				INFOPLIST_FILE = "LA's BEST Robotics AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lasbest.LA-s-BEST-Robotics-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA's BEST Robotics App.app/LA's BEST Robotics App";
+			};
+			name = Release;
+		};
+		C0B663EA1F54BDDC0073BF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JV2PP95GDC;
+				INFOPLIST_FILE = "LA's BEST Robotics AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lasbest.LA-s-BEST-Robotics-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LA's BEST Robotics App";
+			};
+			name = Debug;
+		};
+		C0B663EB1F54BDDC0073BF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JV2PP95GDC;
+				INFOPLIST_FILE = "LA's BEST Robotics AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lasbest.LA-s-BEST-Robotics-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LA's BEST Robotics App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0B663B61F54BDDC0073BF5F /* Build configuration list for PBXProject "LA's BEST Robotics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B663E11F54BDDC0073BF5F /* Debug */,
+				C0B663E21F54BDDC0073BF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B663E31F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B663E41F54BDDC0073BF5F /* Debug */,
+				C0B663E51F54BDDC0073BF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0B663E61F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B663E71F54BDDC0073BF5F /* Debug */,
+				C0B663E81F54BDDC0073BF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0B663E91F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B663EA1F54BDDC0073BF5F /* Debug */,
+				C0B663EB1F54BDDC0073BF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0B663B31F54BDDC0073BF5F /* Project object */;
+}
