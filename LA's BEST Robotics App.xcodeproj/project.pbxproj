@@ -14,6 +14,7 @@
 		C0B663C91F54BDDC0073BF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B663C71F54BDDC0073BF5F /* LaunchScreen.storyboard */; };
 		C0B663D41F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B663D31F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppTests.swift */; };
 		C0B663DF1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B663DE1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift */; };
+		DFE8A6871F7084A3006726C3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8A6861F7084A3006726C3 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C0B663DA1F54BDDC0073BF5F /* LA's BEST Robotics AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA's BEST Robotics AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B663DE1F54BDDC0073BF5F /* LA_s_BEST_Robotics_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA_s_BEST_Robotics_AppUITests.swift; sourceTree = "<group>"; };
 		C0B663E01F54BDDC0073BF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE8A6861F7084A3006726C3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C0B663BD1F54BDDC0073BF5F /* LA's BEST Robotics App */ = {
 			isa = PBXGroup;
 			children = (
+				DFE8A6861F7084A3006726C3 /* SwiftyJSON.swift */,
 				C0B663BE1F54BDDC0073BF5F /* AppDelegate.swift */,
 				C0B663C01F54BDDC0073BF5F /* ViewController.swift */,
 				C0B663C21F54BDDC0073BF5F /* Main.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE8A6871F7084A3006726C3 /* SwiftyJSON.swift in Sources */,
 				C0B663C11F54BDDC0073BF5F /* ViewController.swift in Sources */,
 				C0B663BF1F54BDDC0073BF5F /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +520,7 @@
 				C0B663E51F54BDDC0073BF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0B663E61F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics AppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				C0B663E81F54BDDC0073BF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0B663E91F54BDDC0073BF5F /* Build configuration list for PBXNativeTarget "LA's BEST Robotics AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				C0B663EB1F54BDDC0073BF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
