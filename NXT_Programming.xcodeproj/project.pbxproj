@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D3DA5D96BCE616526C8B753B /* Pods_NXT_Programming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8EEF2357DDD8FA4F92504E /* Pods_NXT_Programming.framework */; };
 		DF227B321F733BD7007E0208 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF227B311F733BD7007E0208 /* SocketIOManager.swift */; };
+		DF71BEC71F73A20400E2C9B3 /* ClientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF71BEC61F73A20400E2C9B3 /* ClientController.swift */; };
 		DFC286331F7339B700FFEEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC286321F7339B700FFEEA4 /* AppDelegate.swift */; };
 		DFC286351F7339B700FFEEA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC286341F7339B700FFEEA4 /* ViewController.swift */; };
 		DFC286381F7339B700FFEEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFC286361F7339B700FFEEA4 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		B2E3F10734A51E342E3767ED /* Pods-NXT_Programming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXT_Programming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NXT_Programming/Pods-NXT_Programming.debug.xcconfig"; sourceTree = "<group>"; };
 		DE10CBE20BDF491311E77CD2 /* Pods-NXT_Programming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXT_Programming.release.xcconfig"; path = "Pods/Target Support Files/Pods-NXT_Programming/Pods-NXT_Programming.release.xcconfig"; sourceTree = "<group>"; };
 		DF227B311F733BD7007E0208 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		DF71BEC61F73A20400E2C9B3 /* ClientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientController.swift; sourceTree = "<group>"; };
 		DF8EEF2357DDD8FA4F92504E /* Pods_NXT_Programming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NXT_Programming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC2862F1F7339B700FFEEA4 /* NXT_Programming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXT_Programming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC286321F7339B700FFEEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF71BEC31F73A0E600E2C9B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFC286341F7339B700FFEEA4 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DF71BEC41F73A17400E2C9B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFC286361F7339B700FFEEA4 /* Main.storyboard */,
+				DFC2863B1F7339B700FFEEA4 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DF71BEC51F73A17800E2C9B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF71BEC61F73A20400E2C9B3 /* ClientController.swift */,
+				DF227B311F733BD7007E0208 /* SocketIOManager.swift */,
+				DFC286601F733A2D00FFEEA4 /* SwiftyJSON.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		DFC286261F7339B700FFEEA4 = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +145,11 @@
 		DFC286311F7339B700FFEEA4 /* NXT_Programming */ = {
 			isa = PBXGroup;
 			children = (
-				DF227B311F733BD7007E0208 /* SocketIOManager.swift */,
-				DFC286601F733A2D00FFEEA4 /* SwiftyJSON.swift */,
+				DF71BEC51F73A17800E2C9B3 /* Model */,
+				DF71BEC31F73A0E600E2C9B3 /* Controller */,
+				DF71BEC41F73A17400E2C9B3 /* View */,
 				DFC286321F7339B700FFEEA4 /* AppDelegate.swift */,
-				DFC286341F7339B700FFEEA4 /* ViewController.swift */,
-				DFC286361F7339B700FFEEA4 /* Main.storyboard */,
 				DFC286391F7339B700FFEEA4 /* Assets.xcassets */,
-				DFC2863B1F7339B700FFEEA4 /* LaunchScreen.storyboard */,
 				DFC2863E1F7339B700FFEEA4 /* Info.plist */,
 			);
 			path = NXT_Programming;
@@ -342,6 +369,7 @@
 			files = (
 				DF227B321F733BD7007E0208 /* SocketIOManager.swift in Sources */,
 				DFC286611F733A2D00FFEEA4 /* SwiftyJSON.swift in Sources */,
+				DF71BEC71F73A20400E2C9B3 /* ClientController.swift in Sources */,
 				DFC286351F7339B700FFEEA4 /* ViewController.swift in Sources */,
 				DFC286331F7339B700FFEEA4 /* AppDelegate.swift in Sources */,
 			);
@@ -497,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B2E3F10734A51E342E3767ED /* Pods-NXT_Programming.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NXT_Programming/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -511,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE10CBE20BDF491311E77CD2 /* Pods-NXT_Programming.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NXT_Programming/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;

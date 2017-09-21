@@ -11,7 +11,7 @@ import SocketIO
 
 class SocketIOManager: NSObject {
     static let socketIO = SocketIOManager()
-    var socket: SocketIOClient = SocketIOClient(socketURL: URL(string: "http://192.168.1.XXX:3000")!)
+    var socket: SocketIOClient = SocketIOClient(socketURL: URL(string: "http://127.0.0.1:3000")!)
     
     override init() {
         super.init()
