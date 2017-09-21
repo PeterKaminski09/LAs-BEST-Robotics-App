@@ -52,16 +52,8 @@ class ViewController: UIViewController {
         //let data = result.data(using: String.Encoding.utf8)!
     }
     
-    @IBAction func displayButton(_ sender: UIButton) {
-        let json = JSON(["type": "Display", "clearScreen": true, "x": 0, "y": 0])
-        let clientController = ClientController()
-        clientController.oldSendDataToServerWith(jsonData: json.description)
-        // NSLog(json.description)
-        //let data = result.data(using: String.Encoding.utf8)!
-    }
-    
     @IBAction func soundButton(_ sender: UIButton) {
-        let json = JSON(["type": "Sound", "volume": 100, "playType": "repeat"])
+        let json = JSON(["type": "sound", "freq": 100, "duration": 475])
         let clientController = ClientController()
         clientController.oldSendDataToServerWith(jsonData: json.description)
         // NSLog(json.description)
